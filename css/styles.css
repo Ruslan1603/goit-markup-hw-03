@@ -235,6 +235,16 @@ ul {
     margin-right: 0px;
 }
 
+ .device {
+    display: flex;
+
+}
+.title-device{
+    text-align: center;
+}
+.title-human {
+    text-align: center;
+}
 
 /* text h2 h3 p */
 .section-hum {
