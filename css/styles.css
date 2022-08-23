@@ -14,6 +14,9 @@ body {
     font-family: Roboto, sans-serif;
 }
 /* Utility */
+ul {
+    list-style: none;
+}
 
 .text {
     text-align: left;
@@ -45,9 +48,9 @@ margin-right: auto;
 padding-left: 15px;
 padding-right: 15px;
 width: 1200px;
-outline: 2px solid tomato;
+
 }
- 
+ /* outline: 2px solid tomato; */
 /* header */
 .main-nav {
     display: flex;
@@ -136,9 +139,7 @@ outline: 2px solid tomato;
 .header-logo:focus {
     color:#2196F3 ;
 }
-ul {
-    list-style: none;
-}
+
 /* цвет фона  #F5F5F5 */
 /* акцент #2196F3 */
 /* белый #FFFFFF */
@@ -170,6 +171,12 @@ ul {
 }
 
 /* button */
+.button {
+    display: flex;
+    justify-content: center;
+margin-left: 50px;
+}
+
 
 
 .btn{
@@ -197,6 +204,8 @@ ul {
 }
 .port-btn{
     display: inline-block;
+    margin-right: 4px;
+    margin-left: 4px;
     padding: 6px 22px;
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
@@ -237,15 +246,42 @@ ul {
 
  .device {
     display: flex;
+    margin: auto;
+    padding: 0px;
 
 }
 .title-device{
+    margin-top: 0px;
     text-align: center;
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03rem;
 }
 .title-human {
+    margin-top: 0px;
+    text-align: center;
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03rem;
+}
+.section-hum .human {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+   
+}
+.human .text {
     text-align: center;
 }
+.human .photo {
 
+    margin-right: 15px;
+    padding-left: 15px;
+    
+}
 /* text h2 h3 p */
 .section-hum {
     background-color:#F5F4FA;
@@ -293,6 +329,23 @@ ul {
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
 }
+/* container foto */
+.container .foto {
+    display: flex;
+    flex-wrap: wrap;
+}
+.foto {
+    padding: 0px;
+    margin: 0px;
+}
+
+.foto .card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 0px;
+}
 
 footer{
     background-color: #2F303A;
@@ -319,4 +372,13 @@ footer{
     letter-spacing: 0.03rem;
     color: #2196F3;
     text-decoration: none;
+    margin-top: 60px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
+.address-list {
+    padding: 0px;
+}
+.address {
+    padding: 0px;
 }
