@@ -155,11 +155,12 @@ width: 1200px;
 
 /* hero */
 .hero{
-    padding-bottom: 94px;
+    padding-bottom: 200px;
     text-align: center;
     background-color: #2F303A;
 }
 .hero-title {
+    padding-top: 200px;
     margin-top: 0px;
     margin-bottom: 30px;
     color:var(--primary-white-color);
@@ -172,6 +173,10 @@ width: 1200px;
 
 /* button */
 .button {
+    padding-top: 94px;
+    padding-bottom: 34px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     display: flex;
     justify-content: center;
 margin-left: 50px;
@@ -228,6 +233,9 @@ margin-left: 50px;
 .port-bgc.section-dev {
     background-color:var(--bgc-color);
 }
+.port-bgc {
+    padding-bottom: 94px;
+}
 .header-port .header-studio{
     background-color: var(--primary-white-color);
 }
@@ -246,12 +254,14 @@ margin-left: 50px;
 
  .device {
     display: flex;
-    margin: auto;
+    margin:auto;
     padding: 0px;
 
 }
 .title-device{
-    margin-top: 0px;
+    margin-top: 93px;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
     text-align: center;
     font-weight: 700;
         font-size: 36px;
@@ -259,7 +269,9 @@ margin-left: 50px;
         letter-spacing: 0.03rem;
 }
 .title-human {
-    margin-top: 0px;
+    padding-top: 94px;
+    padding-bottom: 35px;
+    margin: 0px;
     text-align: center;
     font-weight: 700;
         font-size: 36px;
@@ -272,6 +284,10 @@ margin-left: 50px;
     margin: auto;
     padding: 15px;
    
+}
+.section-hum{
+    margin-top: 94px;
+    padding-bottom: 79px;
 }
 .human .text {
     text-align: center;
@@ -288,7 +304,7 @@ margin-left: 50px;
 }
 
 .section-dev .section {
-    margin-top: 0px;
+    margin-top: 70px;
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
@@ -297,7 +313,7 @@ margin-left: 50px;
     
 }
 .section-dev .container{
-    padding-bottom: 93px;
+    padding-bottom: 0px;
 }
 
 .section-work .title {
@@ -372,12 +388,19 @@ footer{
     letter-spacing: 0.03rem;
     color: #2196F3;
     text-decoration: none;
-    margin-top: 60px;
     padding-left: 0px;
     margin-bottom: 20px;
 }
+.web-studio {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
 .address-list {
-    padding: 0px;
+    padding-left: 0px;
+    padding-bottom: 60px;
+    margin: 0px;
+
 }
 .address {
     padding: 0px;
