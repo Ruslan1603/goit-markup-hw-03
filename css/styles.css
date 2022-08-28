@@ -148,6 +148,7 @@ width: 1200px;
 .header-studio,
 .header-port{
     background-color: var(--primary-white-color);
+    border-bottom: 1px solid #ECECEC;
 }
 
 .web {
@@ -234,7 +235,7 @@ width: 1200px;
     margin: 0;
     padding: 6px 22px;
     color: var(--primary-text-color);
-    background-color: var(--primary-white-color);
+    background-color:var(--silver-bgc);
     font-family: Roboto;
     font-weight: 500;
      font-size: 16px;
@@ -284,7 +285,7 @@ width: 1200px;
 }
 .title-device{
     
-    margin: 93px 0;
+    margin-bottom: 50px;
     text-align: center;
     font-weight: 700;
         font-size: 36px;
@@ -292,7 +293,6 @@ width: 1200px;
         letter-spacing: 0.03rem;
 }
 .title-human {
-    padding-top: 94px;
     margin-bottom: 50px ;
     text-align: center;
     font-weight: 700;
@@ -308,33 +308,38 @@ width: 1200px;
    
 }
 .section-hum{
-    margin-top: 94px;
-    padding-bottom: 79px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .human .text {
     text-align: center;
     padding-bottom: 30px;
 }
-.section {
+.section-name {
     font-size: 16px;
     font-weight: 700;
-    line-height: 2;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--title-text-color);
     margin-bottom: 12px;
-    margin-top: 30px;
+    padding-top: 30px;
 }
 /* text h2 h3 p */
 .section-hum {
     background-color:#F5F4FA;
+}
+.human-li {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+   
 }
 
 .section-dev .section {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.19;
+    line-height: 1.14;
     letter-spacing: 0.03rem;
     
 }
@@ -397,6 +402,7 @@ width: 1200px;
     padding-top: 20px;
     padding-right: 24px;
     padding-left: 24px;
+    border-top: 0px;
      border: 1px solid #eeeeee;
 }
 footer{
